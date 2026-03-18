@@ -26,12 +26,6 @@ class Renderer: NSObject {
         }
         
         let size: Float = 0.8
-//        let mdlMesh = MDLMesh(
-//            boxWithExtent: [size, size, size],
-//            segments: [1,1,1],
-//            inwardNormals: false,
-//            geometryType: .triangles,
-//            allocator: allocator)
         let vertexDescriptor = MTLVertexDescriptor()
         vertexDescriptor.attributes[0].format = .float3
         vertexDescriptor.attributes[0].offset = 0
