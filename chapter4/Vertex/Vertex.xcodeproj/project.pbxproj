@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52342B362F6B616400591CF3 /* Quad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52342B352F6B616400591CF3 /* Quad.swift */; };
+		52342B382F6C5D2300591CF3 /* VertexDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52342B372F6C5D1800591CF3 /* VertexDescriptor.swift */; };
 		824770E42AA7FA0B0095AB72 /* VertexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824770E32AA7FA0B0095AB72 /* VertexApp.swift */; };
 		824770E62AA7FA0B0095AB72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824770E52AA7FA0B0095AB72 /* ContentView.swift */; };
 		824770E82AA7FA0C0095AB72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824770E72AA7FA0C0095AB72 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		52342B352F6B616400591CF3 /* Quad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quad.swift; sourceTree = "<group>"; };
+		52342B372F6C5D1800591CF3 /* VertexDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertexDescriptor.swift; sourceTree = "<group>"; };
 		824770E02AA7FA0B0095AB72 /* Vertex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vertex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824770E32AA7FA0B0095AB72 /* VertexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertexApp.swift; sourceTree = "<group>"; };
 		824770E52AA7FA0B0095AB72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		824770E22AA7FA0B0095AB72 /* Vertex */ = {
 			isa = PBXGroup;
 			children = (
+				52342B372F6C5D1800591CF3 /* VertexDescriptor.swift */,
 				52342B352F6B616400591CF3 /* Quad.swift */,
 				824770E32AA7FA0B0095AB72 /* VertexApp.swift */,
 				824770F62AA7FDDA0095AB72 /* Renderer.swift */,
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52342B382F6C5D2300591CF3 /* VertexDescriptor.swift in Sources */,
 				52342B362F6B616400591CF3 /* Quad.swift in Sources */,
 				824770F72AA7FDDA0095AB72 /* Renderer.swift in Sources */,
 				824770E62AA7FA0B0095AB72 /* ContentView.swift in Sources */,
